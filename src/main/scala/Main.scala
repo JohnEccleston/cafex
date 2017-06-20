@@ -5,6 +5,6 @@ object Main extends App {
 
   override def main(args: Array[String]): Unit = {
       val totalBill = Bill(args)
-      println(totalBill)
+      println(totalBill.retVal)
     }
 }

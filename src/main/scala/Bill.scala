@@ -20,7 +20,5 @@ case class Bill(items: Array[String]) {
     val retVal = total
   }
 
-  println(total)
   val retVal = total
-
 }

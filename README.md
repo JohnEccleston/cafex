@@ -1,5 +1,5 @@
 ## Capgemini Cafe X
-An app that takes menu items (Cola, Coffe, Cheese Sandwich, Steak Sandwich) and calculates the bill
+An app that takes menu items (Cola, Coffee, Cheese Sandwich, Steak Sandwich) and calculates the bill
 
 ## Requirements
 Scala 2.12  
