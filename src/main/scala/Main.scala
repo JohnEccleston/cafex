@@ -4,9 +4,10 @@
 object Main extends App {
 
   override def main(args: Array[String]): Unit = {
-      val totalBill = Bill(args)
-      println("Bill: " + totalBill.retBill)
-      println("Service Charge: " + totalBill.retService)
-      println("Total Bill: " + totalBill.retTotal)
+      val input = args.toList
+      val totalBill = Bill(input)
+      println("Bill: " + totalBill.getBill)
+      println("Service Charge: " + totalBill.getService)
+      println("Total Bill: " + totalBill.getTotal)
     }
 }
